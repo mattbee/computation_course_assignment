@@ -1,0 +1,7 @@
+.inputs {
+  display: flex;
+}
+
+label {
+  display: block;
+}
