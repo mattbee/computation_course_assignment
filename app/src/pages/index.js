@@ -6,7 +6,6 @@ import Calculator from "../components/calculator";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`Demystifying computation`, `FutureLearn`, `binary`, `explanation`, `denary`]} />
-    <h1>The Binary number system</h1>
     <h2>A FutureLearn assignment by Matt Bee</h2>
     <p>Binary is a way of representing numbers using only 1 and 0.  It uses a base 2 system, which means that each part of the number has 2 possible values, 0 and 1.</p>
 
