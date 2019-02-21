@@ -5,3 +5,17 @@
 label {
   display: block;
 }
+.inputs {
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.inputs input {
+  font-size: 28px;
+}
+
+.dernary {
+  font-size: 48px;
+  line-height: 1.3;
+  margin-bottom: 100px;
+}

@@ -44,12 +44,12 @@ class Calculator extends React.Component {
 
     return (
       <div>
-        The Calculator
+        <h3>The Calculator</h3>
         <div className="inputs">
           {BINARY.map((val) => (
             <div key={val}>
               <label htmlFor={`id-${val}`}>{val}</label>
-              <input type="number" max="1" min="0" placeholder="0" onChange={this.handleChange} name={`id${val}`} id={`id${val}`} data-value={val} />
+              <input type="number" max="1" min="0" placeholder="0" value={(this.state[`id${val}`] ? 1 : 0)} onChange={this.handleChange} name={`id${val}`} id={`id${val}`} data-value={val} />
             </div>
           ))}
         </div>
