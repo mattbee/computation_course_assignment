@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Binary number system learning resource`,
+    description: `Understanding the Binary number system. A worksheet and calulator created for the Demystifying computation course on FutureLearn.`,
+    author: `@mattbee`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
