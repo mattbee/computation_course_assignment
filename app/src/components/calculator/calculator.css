@@ -4,6 +4,7 @@
 
 label {
   display: block;
+  text-align: center;
 }
 .inputs {
   font-size: 28px;
@@ -11,11 +12,16 @@ label {
   margin-bottom: 20px;
 }
 .inputs input {
-  font-size: 28px;
+  font-size: 38px;
+  text-align: center;
 }
 
 .dernary {
-  font-size: 48px;
+  font-size: 60px;
   line-height: 1.3;
   margin-bottom: 100px;
+}
+
+.input-column {
+  margin-right: 10px;
 }
