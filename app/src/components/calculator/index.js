@@ -27,7 +27,7 @@ class Calculator extends React.Component {
     event.persist();
     this.setState((prevState) => {
       return {
-        [event.target.name]: (event.target.value == 1 ? parseInt(event.target.dataset.value) : 0)
+        [event.target.name]: (event.target.value === 1 ? parseInt(event.target.dataset.value) : 0)
       }
     }, () => {
       this.setState(() => {
